@@ -1,0 +1,77 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin-left: 550px ; 
+}
+
+.feild {
+    margin-top: 150px;
+    width: max-content;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    background-color: beige;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+  
+}
+
+span {
+    font-size: 12px;
+    margin-left: 10px;
+    color: red;
+}
+
+#signincontainer{
+    margin-left: 130px; 
+}
+
+#signupcontainer {
+    margin-top: 20px;
+    margin-left: 130px;
+    display: none;
+}
+
+#link{
+    margin-left: 100px;
+}
+
+/* Style for the pop-up message */
+.popup-message {
+    position: fixed;
+    bottom: 20px; /* Adjust the bottom distance as needed */
+    right: 20px; /* Adjust the right distance as needed */
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    z-index: 1;
+    display: none; /* Hide by default */
+}
